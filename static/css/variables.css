@@ -1,0 +1,21 @@
+:root{
+    /* colors */
+    --color-for-bg: #F6F8F9;
+    --color-pink: #FA6980;
+    --color-white: #ffffff;
+    --color-disabled: #A6ADB4;
+
+    /* margins */
+    --margin-100: 100px;
+    /* paddings */
+    --padding-100: 100px;
+    --padding-80: 80px;
+    --padding-70: 70px;
+    /* sizes */
+    --font-large: 24px;
+    --font-middle: 16px;
+    --font-small: 13px;
+    --font-mini: 11px;
+
+    
+}
