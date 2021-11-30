@@ -13,7 +13,12 @@ li{
 body{
     background-color: var(--color-for-bg);
 }
-
+.container{
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* HEADER & NAVIGATION */
 .site-header{
     display: flex;
     justify-content: space-between;
@@ -50,6 +55,8 @@ body{
 .active{
     opacity: 1;
 }
+/* / HEADER & NAVIGATION / */
+
 /* WORLD NEWS SECTION */
 .section-world-news{
     display: flex;
@@ -141,7 +148,87 @@ body{
     color: var(--color-white);
     cursor: pointer;
 }
-/* text above image */
+/* TRENDING SECTION */
+.section-trending{
+    margin: 40px 0;
+}
+.trending-cards-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.trending-title{
+    font-size: var(--font-large);
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.trending-card{
+    width: 360px;
+    height: 350px;
+    background-color: var(--color-white);
+    /* border: 1px solid black; */
+    border-radius: 10px;
+}
+.trending-card-title{
+    font-size: var(--font-middle);
+    line-height: 20px;
+}
+.trending-card-description{
+    font-size: var(--font-small);
+    line-height: 23px;
+    color: var(--color-disabled);
+}
+.trending-card-timing{
+    color: var(--color-disabled);
+    font-size: var(--font-small);
+    line-height: 23px;
+}
+.trending-card-body{
+    padding: 40px;
+}
+/* HAPPENING NOW SECTION */
+.section-happening-now{
+
+}
+.happening-now-title{
+    font-size: var(--font-large);
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.articles-wrapper{
+    display: flex;
+}
+.left-large-articles, .right-small-articles{
+display: flex;
+flex-direction: column;
+}
+.left-large-articles{
+    margin-right: 20px;
+}
+.right-small-articles{
+    margin-left: 20px;
+}
+.article-top{
+    margin-bottom: 20px;
+}
+.article-bottom{
+    margin-top: 20px;
+}
+.right-small-article-title{
+    font-size: var(--font-middle);
+    line-height: 26px;
+}
+.right-small-article-timing{
+    font-size: var(--font-small);
+    line-height: 26px;
+    color: var(--color-disabled);
+}
+.right-small-article-card{
+    margin-bottom: 40px;
+}
+
+
 /* RESPONSIVE */
 @media(max-width:1024px){
     .world-news-title{
@@ -253,5 +340,9 @@ body{
         background-color: var(--color-pink);
         color: var(--color-white);
         cursor: pointer;
+    }
+    /* trending section */
+    .trending-card:last-child{
+        display: none;
     }
 }
