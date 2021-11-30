@@ -312,6 +312,25 @@ flex-direction: column;
     display: flex;
     justify-content: space-between;
 }
+
+/* API STYLES */
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th{
+      text-transform: uppercase;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+/* API STYLES */
 /* RESPONSIVE */
 @media(max-width:1024px){
     .world-news-title{
