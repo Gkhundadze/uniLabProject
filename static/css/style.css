@@ -10,8 +10,23 @@ a{
 li{
     list-style: none;
 }
+/* FONTS */
+@font-face {
+    font-family: 'Helvetica-bold';
+    src: url('../fonts/helvetica/Helvetica-Bold.ttf'),
+        url('../fonts/helvetica/Helvetica-Bold.woff'),
+        url('../fonts/helvetica/Helvetica-Bold-Font.woff2');
+}
+@font-face {
+    font-family: 'Acumin-pro-regular';
+    src: url('../fonts/helvetica/Helvetica-Bold.ttf'),
+        url('../fonts/helvetica/Helvetica-Bold.woff'),
+        url('../fonts/helvetica/Helvetica-Bold-Font.woff2');
+}
+/* FONTS */
 body{
     background-color: var(--color-for-bg);
+    font-family: 'Helvetica-bold';
 }
 .container{
     max-width: 1160px;
@@ -106,6 +121,7 @@ body{
     color: var(--color-disabled);
     font-size: var(--font-middle);
     line-height: 26px;
+    font-family: 'Acumin-pro-regular';
 }
 .article{
     margin-bottom: 39px;
@@ -182,6 +198,7 @@ body{
     font-size: var(--font-small);
     line-height: 23px;
     color: var(--color-disabled);
+    font-family: 'Acumin-pro-regular';
 }
 .trending-card-timing{
     color: var(--color-disabled);
