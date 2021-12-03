@@ -18,5 +18,7 @@
     --font-small: 13px;
     --font-mini: 11px;
 
-    
+
+    --full-screenY: 100vh;
+    --header-size: 50px;
 }
