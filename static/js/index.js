@@ -9,9 +9,7 @@ const burger = document.querySelector('.burger')
 const mainNavigation = document.querySelector('.main-navigation')
 const ul = document.querySelector('.nav-ul')
 
-
 burger.addEventListener('click', () => burgerWatcher())
-
 
 function burgerWatcher() {
     burger.style.transform = 'rotate(360deg)'

@@ -526,11 +526,30 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     cursor: pointer;
     font-family: 'Helvetica-bold';
 }
-
-
-
+/* WORLD NEWS SECOND SECTION */
+.textbox-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.card-profile-title,
+.card-textbox-middle,
+.card-textbox-last{
+    max-width: 360px;
+}
+.textbox-paragraph{
+    font-family: 'Helvetica-regular';
+    font-size: 14px;
+    line-height: 26px;
+}
+.profile-paragraph{
+    font-family: 'Acumin-pro-bold';
+    line-height: 34px;
+    font-size: var(--font-large);
+}
 /* RESPONSIVE */
-@media (max-width: 1100px) {
+@media (max-width: 1140px) {
+
     .trending-card:last-child{
         margin: 20px auto;
     }
