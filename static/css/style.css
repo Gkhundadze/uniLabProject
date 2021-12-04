@@ -10,6 +10,31 @@ a{
 li{
     list-style: none;
 }
+/* VARIABLES */
+:root{
+    /* colors */
+    --color-for-bg: #F6F8F9;
+    --color-pink: #FA6980;
+    --color-white: #ffffff;
+    --color-disabled: #A6ADB4;
+    --color-footer-links: #CBD0D3;
+
+    /* margins */
+    --margin-100: 100px;
+    /* paddings */
+    --padding-100: 100px;
+    --padding-80: 80px;
+    --padding-70: 70px;
+    --padding-60: 60px;
+    --padding-50: 50px;
+    /* sizes */
+    --font-large: 24px;
+    --font-middle: 16px;
+    --font-small: 13px;
+    --font-mini: 11px;
+    --header-size: 50px;
+}
+/* /VARIABLES */
 /* FONTS */
 @font-face {
     font-family: 'Helvetica-bold';
@@ -204,7 +229,7 @@ img:hover{
     font-size: var(--font-large);
     padding-bottom: 30px;
     margin-bottom: 40px;
-    border-bottom: 2px solid var(--);
+    border-bottom: 2px solid var(--color-white);
 }
 .world-news-subtitle{
     font-size: var(--font-large);
@@ -735,7 +760,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         background-color: var(--color-white);
         transition: .5s ease-in-out;
         transform: translateX(-100%);
-        height: var(--full-screenY);
+        height: 100vh;
         width: 80vw;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
