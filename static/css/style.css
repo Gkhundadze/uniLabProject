@@ -85,6 +85,20 @@ img:hover{
     width: 100%;
     margin: 0 auto;
 }
+/* arrows */
+.title-and-arrows-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.custom-arrows{
+    display: flex;
+    width: 40px;
+    justify-content: space-between;
+}
+.custom-arrows .back, .next{
+    cursor: pointer;
+}
+/* /arrows */
 /* HEADER & NAVIGATION */
 .site-header{
     display: flex;
